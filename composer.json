@@ -5,6 +5,7 @@
     "keywords": ["aceplus","payment"],
     "homepage": "https://github.com/Min-Thu-Khant/test-package",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Min Thu Khant",
