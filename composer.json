@@ -1,18 +1,23 @@
 {
-    "name": "Aceplus\PaymentPackage",
-    "description": "payment module",
+    "name": "aceplus/payment",
+    "type": "module",
+    "description": "payment method for aceplus projects",
+    "keywords": ["aceplus","payment"],
+    "homepage": "https://github.com/Min-Thu-Khant/test-package",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Min Thu khant",
-            "email": "minthukhant@aceplussolutions.com"
+            "name": "Min Thu Khant",
+            "email": "minthukant@aceplussolutions.com",
+            "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
+
     },
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "Payment": "src"
         }
     }
 }
