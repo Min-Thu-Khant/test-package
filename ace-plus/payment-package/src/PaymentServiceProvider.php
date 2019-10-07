@@ -13,7 +13,8 @@ class PaymentServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+
+      // $this->app->make('Devdojo\Calculator\CalculatorController');
     }
 
     /**
