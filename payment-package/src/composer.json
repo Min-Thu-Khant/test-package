@@ -1,5 +1,18 @@
 {
     "name": "Aceplus\PaymentPackage",
     "description": "payment module",
-    "require": {}
+    "authors": [
+        {
+            "name": "Min Thu khant",
+            "email": "minthukhant@aceplussolutions.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
 }
